@@ -20,11 +20,12 @@ function NavBar() {
         <span className="font-semibold tracking-wide text-white">ModernBrand</span>
       </Link>
       <nav className="hidden md:flex items-center gap-6 text-sm text-white/80">
-        <Link href="#features" className="hover:text-white">Características</Link>
-        <Link href="#precios" className="hover:text-white">Precios</Link>
-        <Link href="#faq" className="hover:text-white">FAQ</Link>
-        <Link href="#" className="px-4 py-2 rounded-xl bg-white/10 hover:bg-white/20 transition">Ingresar</Link>
-      </nav>
+  <Link href="#features" className="hover:text-white">Características</Link>
+  <Link href="/pricing" className="hover:text-white">Precios</Link>
+  <Link href="/faq" className="hover:text-white">FAQ</Link>
+  <Link href="/contacto" className="hover:text-white">Contacto</Link>
+  <Link href="#" className="px-4 py-2 rounded-xl bg-white/10 hover:bg-white/20 transition">Ingresar</Link>
+</nav>
       <button className="md:hidden rounded-xl border border-white/10 px-3 py-2 text-sm text-white">Menú</button>
     </header>
   );
